@@ -1,0 +1,78 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+body{
+  background-repeat: repeat;
+  background-position: 'center';
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("./pic.png");
+ 
+  
+ }
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 45px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 380px;
+  height: 380px;
+  background-color: #EADDCA;
+}
+
+.writing{
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.para{
+  font-size:20px;
+  /* background-color: #f1f1f1; */
+  height: 150px;
+  overflow: auto;
+  margin: 20px;
+  text-align: justify;
+  padding: 20px;
+  /* background-color: aqua; */
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 25px;
+  background-color: brown;
+}
+::-webkit-scrollbar-track{
+  background: burlywood;
+}
+.tex{
+  text-align: center;
+  margin-top: 80px;
+ 
+}
+
+.swiper-slide img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+}
